@@ -1,6 +1,6 @@
 #PART 1
 #depths = [199,200,208,210,200,207,240,269,260,263]
-with open("day1.txt") as file:
+with open("Day1.txt") as file:
     lines = file.readlines()
     depths = [int(line.rstrip()) for line in lines]
 
